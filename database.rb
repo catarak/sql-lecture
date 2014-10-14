@@ -30,7 +30,7 @@ end
 # What you do instead is
 author_query = """SELECT posts.title FROM posts 
                   JOIN people on posts.people_id = people.id
-                  WHERE people.name = ?"""
+                  WHERE people.name = '?'"""
 results = db.execute(author_query, author_name)                 
 
 
