@@ -1,0 +1,1 @@
+INSERT INTO people (name) VALUES ("Gladwell"), ("Ferris"), ("Godin");
