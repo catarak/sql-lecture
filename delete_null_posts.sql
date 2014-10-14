@@ -1,0 +1,1 @@
+DELETE from posts where people_id IS NULL;
